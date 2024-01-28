@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2rT0NhhONl4Z/+fykSQjoueEqdkBA4Qk0TzvroQ7Q+6kUvtMdrCSSzNcWA9fAgQhO0Wrup0oC3nQ4/i2Es/pjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tthurn\\source\\repos\\Route53Exit\\Route53Exit\\Route53Exit.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tthurn\\.nuget\\packages\\awssdk.core\\3.7.302.1\\awssdk.core.3.7.302.1.nupkg.sha512",
+    "C:\\Users\\tthurn\\.nuget\\packages\\awssdk.route53\\3.7.302.8\\awssdk.route53.3.7.302.8.nupkg.sha512"
+  ],
+  "logs": []
+}

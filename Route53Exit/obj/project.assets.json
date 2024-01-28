@@ -1,0 +1,173 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "AWSSDK.Core/3.7.302.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.Route53/3.7.302.8": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.302, 4.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/AWSSDK.Route53.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Route53.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWSSDK.Core/3.7.302.1": {
+      "sha512": "YIHC3h9mv3zRiq71GDRyXGofCFA01zw4pMDHCWCTrssU8/zZJ0PPR72YeUCjmEZV++6xRVM+9TRpvpKrvB3aFQ==",
+      "type": "package",
+      "path": "awssdk.core/3.7.302.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.302.1.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/net8.0/AWSSDK.Core.dll",
+        "lib/net8.0/AWSSDK.Core.pdb",
+        "lib/net8.0/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.Route53/3.7.302.8": {
+      "sha512": "CPWgY6EGf80wCTu1XG0i7/fmtIqn7U1l3z1akqr6FVf3pU5CyO/1ISpNlxZ9MgcmCmRBangJmIIFBfQMkWSigA==",
+      "type": "package",
+      "path": "awssdk.route53/3.7.302.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.Route53.CodeAnalysis.dll",
+        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
+        "awssdk.route53.3.7.302.8.nupkg.sha512",
+        "awssdk.route53.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.Route53.dll",
+        "lib/net35/AWSSDK.Route53.pdb",
+        "lib/net35/AWSSDK.Route53.xml",
+        "lib/net45/AWSSDK.Route53.dll",
+        "lib/net45/AWSSDK.Route53.pdb",
+        "lib/net45/AWSSDK.Route53.xml",
+        "lib/net8.0/AWSSDK.Route53.dll",
+        "lib/net8.0/AWSSDK.Route53.pdb",
+        "lib/net8.0/AWSSDK.Route53.xml",
+        "lib/netcoreapp3.1/AWSSDK.Route53.dll",
+        "lib/netcoreapp3.1/AWSSDK.Route53.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Route53.xml",
+        "lib/netstandard2.0/AWSSDK.Route53.dll",
+        "lib/netstandard2.0/AWSSDK.Route53.pdb",
+        "lib/netstandard2.0/AWSSDK.Route53.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AWSSDK.Core >= 3.7.302.1",
+      "AWSSDK.Route53 >= 3.7.302.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tthurn\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tthurn\\source\\repos\\Route53Exit\\Route53Exit\\Route53Exit.csproj",
+      "projectName": "Route53Exit",
+      "projectPath": "C:\\Users\\tthurn\\source\\repos\\Route53Exit\\Route53Exit\\Route53Exit.csproj",
+      "packagesPath": "C:\\Users\\tthurn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tthurn\\source\\repos\\Route53Exit\\Route53Exit\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\tthurn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "AWSSDK.Core": {
+            "target": "Package",
+            "version": "[3.7.302.1, )"
+          },
+          "AWSSDK.Route53": {
+            "target": "Package",
+            "version": "[3.7.302.8, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
